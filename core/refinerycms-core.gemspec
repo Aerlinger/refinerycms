@@ -1,4 +1,5 @@
-# Encoding: UTF-8
+#
+#Encoding: UTF-8
 require File.expand_path('../../core/lib/refinery/version', __FILE__)
 
 version = Refinery::Version.to_s
@@ -32,6 +33,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'sass-rails',                  '~> 4.0.0'
   s.add_dependency 'coffee-rails',                '~> 4.0.0'
   s.add_dependency 'jquery-rails',                '>= 2.3.0'
-  s.add_dependency 'jquery-ui-rails',             '~> 4.1.1'
+  s.add_dependency 'jquery-ui-rails',             '>= 4.1.1'
   s.add_dependency 'decorators',                  '~> 1.0.0'
 end
